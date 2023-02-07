@@ -1,0 +1,67 @@
+body {
+    margin:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+
+Bunlara artık gerek kalmadı
+
+.flex-container-red {
+    height: 927px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.flex-container-blue {
+    height: 927px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.flex-container-yellow {
+    height: 927px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+} */
+
+.button {
+    background-color: #1463D5;
+    color: white;
+    border: 1px solid lightblue;
+    padding: 5px 12px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.button:active {
+    background-color: #0c55bb;
+    font-size: 24px;
+}
+
+.kirmizi {
+    color: red;
+}
+
+.mavi {
+    color: pink;
+}
